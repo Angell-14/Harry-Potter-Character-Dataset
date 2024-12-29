@@ -1,51 +1,49 @@
-Harry Potter Characters Dataset
-📖 Overview
-This repository contains a dataset of Harry Potter characters, web-scraped from [insert source website]. The dataset includes information about characters from the Harry Potter universe, such as their names, Hogwarts houses, affiliations, and other attributes.
-
-This dataset is ideal for fans, data enthusiasts, and researchers who want to analyze or visualize data from the Wizarding World.
-
-📂 Dataset Details
-Features
-The dataset includes the following columns:
-
-Name: Full name of the character.
-House: Hogwarts house (e.g., Gryffindor, Slytherin).
-Blood Status: Pure-blood, Half-blood, or Muggle-born.
-Affiliations: Groups or organizations they are associated with (e.g., Dumbledore's Army, Death Eaters).
-Other Details: Additional traits like wand type, patronus, or notable characteristics (if available).
-Files
-harry_potter_characters.csv - The dataset in CSV format.
-[Optional] harry_potter_characters.json - A JSON version of the dataset.
-🛠️ Usage
-Clone the Repository
-To get started, clone this repository to your local machine:
-
-bash
-Copy code
-git clone https://github.com/yourusername/harry-potter-characters-dataset.git
-Load the Dataset
-You can load the dataset in Python using pandas:
-
-python
-Copy code
-import pandas as pd
-
-data = pd.read_csv('harry_potter_characters.csv')
-print(data.head())
-Analyze and Visualize
-Use the dataset to perform exploratory data analysis, create visualizations, or build machine learning models.
-
-⚠️ Disclaimer
-This dataset was created by web-scraping data from [insert source website] for educational and research purposes only.
-All rights to the original content belong to their respective owners. If you are the copyright holder and have concerns, please contact me to have the dataset removed.
-
-🌟 Contributions
-Contributions are welcome!
-If you’d like to contribute:
-
-Fork the repository.
-Make your changes and commit them.
-Submit a pull request for review.
-🧙‍♂️ Acknowledgments
-Data sourced from [insert source website].
-Inspired by J.K. Rowling’s Harry Potter universe.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Character Dataset</title>
+</head>
+<body>
+    <h1>Harry Potter Character Dataset</h1>
+    <p>This repository contains a dataset of Harry Potter characters, created by web-scraping information from a <a href="(https://harrypotter.fandom.com/wiki/Main_Page)">source website</a>. This dataset is intended for educational and analytical purposes, offering insights into the Harry Potter universe and its characters.</p>
+    
+    <h2>Dataset Overview</h2>
+    <p>The dataset includes the following details about Harry Potter characters:</p>
+    <ul>
+        <li>Character Name</li>
+        <li>House</li>
+        <li>Blood Status</li>
+        <li>Patronus (if applicable)</li>
+        <li>Other attributes (as applicable)</li>
+    </ul>
+    
+    <h2>File Description</h2>
+    <ul>
+        <li><code>harry_potter_characters.csv</code>: The main dataset file containing all the character data.</li>
+        <li><code>scraping_script.py</code>: The script used for web scraping.</li>
+    </ul>
+    
+    <h2>How to Use</h2>
+    <p>You can use this dataset for various purposes, such as:</p>
+    <ul>
+        <li>Data analysis and visualization</li>
+        <li>Building machine learning models</li>
+        <li>Practicing data cleaning and preprocessing</li>
+        <li>Exploring character traits and patterns</li>
+    </ul>
+    
+    <h2>Source Information</h2>
+    <p>The data was web-scraped from <a href="(https://harrypotter.fandom.com/wiki/Main_Page)"></a>. Please note that this dataset is shared for non-commercial, educational purposes only.</p>
+    
+    <h2>Disclaimer</h2>
+    <p>This dataset is fan-made and is not affiliated with or endorsed by J.K. Rowling, Warner Bros., or any official Harry Potter entities.</p>
+    
+    <h2>Contributing</h2>
+    <p>If you'd like to contribute by improving the dataset or the scraping script, feel free to open a pull request or submit an issue.</p>
+    
+    <h2>License</h2>
+    <p>This dataset is licensed under the MIT License</a>. Please see the LICENSE file for more details.</p>
+</body>
+</html>
